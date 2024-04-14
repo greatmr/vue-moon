@@ -1,0 +1,39 @@
+.vm-alert {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.vm-alert--info {
+  background-color: #eef3ff;
+  color: #0366d6;
+}
+
+.vm-alert--success {
+  background-color: #f0fff4;
+  color: #28a745;
+}
+
+.vm-alert--warning {
+  background-color: #fffbe5;
+  color: #ffd33d;
+}
+
+.vm-alert--error {
+  background-color: #ffeef0;
+  color: #d73a49;
+}
+
+.vm-alert--show {
+  display: block;
+}
+
+.vm-alert__title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.vm-alert__message {
+  margin-bottom: 5px;
+}

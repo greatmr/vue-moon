@@ -1,0 +1,1 @@
+export { VMAlert } from './VMAlert'
